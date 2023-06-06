@@ -4,7 +4,8 @@
   "description": "Test project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Clue Mediator",
